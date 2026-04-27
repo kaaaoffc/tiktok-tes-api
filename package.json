@@ -1,0 +1,26 @@
+{
+  "name": "tiktok-telegram-bot",
+  "version": "1.0.0",
+  "description": "Bot Telegram Search TikTok + Video & Audio",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "telegram-bot",
+    "tiktok",
+    "downloader",
+    "nodejs"
+  ],
+  "author": "Kamu",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
